@@ -1,0 +1,8 @@
+requests
+pandas
+snowflake-connector-python
+snowflake-connector-python[pandas]
+boto3
+psycopg2-binary
+apache-airflow    # optional, for using Airflow locally
+python-dotenv
