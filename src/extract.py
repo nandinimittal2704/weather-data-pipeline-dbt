@@ -10,7 +10,7 @@ load_dotenv()
 # Weather API key should be provided via environment variable.
 # For backward compatibility, a default key is kept but it's recommended
 # to set `WEATHER_API_KEY` in `.env` or your environment.
-DEFAULT_WEATHER_API_KEY = "5b129a234f544843923115317252311"
+DEFAULT_WEATHER_API_KEY = "WEATHER_API_KEY"
 API_KEY = os.getenv("WEATHER_API_KEY", DEFAULT_WEATHER_API_KEY)
 if API_KEY == DEFAULT_WEATHER_API_KEY:
     print("Warning: Using default Weather API key. Set WEATHER_API_KEY in .env for production.")
